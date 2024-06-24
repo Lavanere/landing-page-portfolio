@@ -1,0 +1,71 @@
+.contact {
+    padding-bottom: 4rem; /* Adicione um padding para criar espaço */
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid var(--light-tertiary-color);
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--light-tertiary-color);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.message {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    border: 1px solid var(--light-tertiary-color);
+    border-radius: 0.5rem;
+    background-color: var(--light-tertiary-color);
+}
+
+.message-text {
+    display: inline-block;
+}
+
+.close-message {
+    position: absolute;
+    top: 50%;
+    right: 0.2rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--primary-color);
+}

@@ -1,0 +1,39 @@
+footer {
+    background-color: var(--light-tertiary-color);
+    scroll-margin-top: 15rem;
+    padding: 6rem 4rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+footer .footer__content .footer__contact {
+    display: inline-block;
+    margin: 0 auto 2rem;
+    max-width: 50rem;
+}
+
+footer .footer__content .footer__contact span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+footer .footer__content ul {
+    display: inline-block;
+    margin: 0 auto 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer__content ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+footer .footer__content ul li a {
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 2rem;
+}
